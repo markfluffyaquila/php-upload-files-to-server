@@ -1,7 +1,5 @@
 <?php
-// Reference : http://www.w3bees.com/2013/02/multiple-file-upload-with-php.html
-// Remember to modify upload_max_filesize on php.ini
-$valid_formats = array('jpg', 'png', 'xls', 'docx', 'txt');
+$valid_formats = array('jpg', 'png', 'docx', 'txt');
 $max_file_size = 1024*1024*10; //10 M
 $path = "../uploads/"; // Upload directory
 
